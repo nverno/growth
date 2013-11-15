@@ -1,4 +1,5 @@
 ## Keep track of data manipulations for growth analysis
+## Run this script to recreate all datasets used in growth analysis
 source("~/work/functions/functions-datatrans.R")
 
 ## read master data
@@ -9,4 +10,5 @@ source("~/work/data/data-prep/read-moose.R")
 source("~/work/data/data-prep/clean-moose.R")
 
 ## make long version of data
+## creates "~/work/data/data/growth/moose-long.csv"
 source("~/work/data/data-trans/make-long-moose.R")
