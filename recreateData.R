@@ -6,9 +6,9 @@ source("~/work/functions/functions-datatrans.R")
 source("~/work/data/data-prep/read-moose.R")
 
 ## add/remove columns, annualize growth, rename columns if they changed
-## creates "~/work/data/data/growth/moose-wide.csv"
+## creates "~/work/data/data/moose-wide.csv"
 source("~/work/data/data-prep/clean-moose.R")
 
 ## make long version of data
-## creates "~/work/data/data/growth/moose-long.csv"
+## creates "~/work/data/data/moose-long.csv"
 source("~/work/data/data-trans/make-long-moose.R")
